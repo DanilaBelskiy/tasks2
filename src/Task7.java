@@ -4,6 +4,8 @@ public class Task7 {
         System.out.println(answer);
     }
 
+    // Return true if input string is postcode
+    // Else return false
     public static boolean isValid(String inp) {
         if (inp.length() > 5) {
             return false;

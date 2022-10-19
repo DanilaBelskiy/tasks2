@@ -4,6 +4,8 @@ public class Task1 {
         System.out.println(answer);
     }
 
+    // Repeat all characters in string few times
+    // Return this string
     public static String repeat(String str, int number) {
         char[] str_arr = str.toCharArray();
         String answer = "";

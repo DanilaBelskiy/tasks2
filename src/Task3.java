@@ -5,6 +5,8 @@ public class Task3 {
         System.out.println(answer);
     }
 
+    // Return true if avg of numbers of array is integer
+    // Else return false
     public static boolean isAvgWhole(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {

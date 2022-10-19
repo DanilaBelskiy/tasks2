@@ -4,6 +4,9 @@ public class Task8 {
         System.out.println(answer);
     }
 
+    // Return true if start of first string = end of second string
+    // And start of second string = end of first string
+    // Else return false
     public static boolean isStrangePair(String str1, String str2) {
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();

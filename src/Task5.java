@@ -4,6 +4,7 @@ public class Task5 {
         System.out.println(answer);
     }
 
+    // Return amount of digits after point
     public static int getDecimalPlaces(String str) {
         int answer = 0;
 

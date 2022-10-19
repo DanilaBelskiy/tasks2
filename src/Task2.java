@@ -5,6 +5,7 @@ public class Task2 {
         System.out.println(answer);
     }
 
+    // Return difference between max and min number in array
     public static int differenceMaxMin(int[] arr) {
         int max = arr[0];
         int min = arr[0];

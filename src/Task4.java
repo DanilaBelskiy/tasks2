@@ -8,6 +8,7 @@ public class Task4 {
         }
     }
 
+    // Return array where every number is cumulative sum for input array
     public static int[] cumulativeSum(int[] arr) {
         int sum_helper = 0;
         int[] new_arr = new int[arr.length];

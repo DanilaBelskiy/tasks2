@@ -9,6 +9,7 @@ public class Task9 {
         System.out.println(answer2);
     }
 
+    // Return true if second string is prefix for first string
     public static boolean isPrefix(String str, String prefix) {
         if (prefix.charAt(prefix.length() - 1) != '-') {
             return false;
@@ -23,6 +24,7 @@ public class Task9 {
         return Arrays.equals(cutted_prefix, cutted_str);
     }
 
+    // Return true if second string is suffix for first string
     public static boolean isSuffix(String str, String suffix) {
         if (suffix.charAt(0) != '-') {
             return false;

@@ -4,6 +4,7 @@ public class Task6 {
         System.out.println(answer);
     }
 
+    // Return Fibonacci number with input index
     public static int Fibonacci(int number) {
         int n_1 = 0;
         int n_2 = 1;
